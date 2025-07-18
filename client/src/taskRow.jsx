@@ -4,7 +4,7 @@ function TaskRow({taskitem, deleteTask}) {
     const [crossout, setCrossout] = useState(false);
 
     return (
-        <div>
+        <div style={{marginLeft: '70px', marginRight: '10px', marginBotton: '10px'}}>
             {crossout ? <s>{taskitem.task}</s> : taskitem.task}
             <input
                 type="checkbox"

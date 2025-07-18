@@ -69,14 +69,15 @@ function App() {
 
     return (
         <div>
-            <h1>Add a Task</h1>
+            <h1 style={{margin: '70px', marginBottom: '10px'}}>Add a Task</h1>
             <input
                 type="text"
                 value={newTask}
                 onChange={(e) => setNewTask(e.target.value)}
+                style={{marginLeft: '70px', marginRight: '10px'}}
             />
             <button onClick={addTask}>Add Task</button>
-            <h1>Task List</h1>
+            <h1 style={{margin: '10px', marginLeft: '70px', marginRight: '10px'}}>Task List</h1>
             <div>
                 {tasksList}
             </div>
