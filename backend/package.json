@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "app.js",
   "scripts": {
-    "dev": "node --watch --watch-path ./ app.js"
+    "dev": "node --watch --watch-path ./ --require ./trace.js app.js",
+    "start": "node --require ./trace.js app.js"
   },
   "author": "",
   "license": "ISC",
