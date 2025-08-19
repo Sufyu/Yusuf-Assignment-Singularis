@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "app.js",
   "scripts": {
-    "dev": "node --watch --watch-path ./ --require ./trace.js app.js",
+    "dev": "node --watch --watch-path ./ --require ./trace-prometheus.js app.js",
     "start": "node --require ./trace.js app.js"
   },
   "author": "",
